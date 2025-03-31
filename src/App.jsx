@@ -4,7 +4,7 @@ import Detail from "./routes/Detail";
 
 function App(){
   return(
-    <Router>
+    <Router basename="/high-score_movies">
       <Routes>
         {/* 루트경로 */}
         <Route path="/"element={<Home />} />
